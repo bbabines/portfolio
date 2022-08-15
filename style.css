@@ -1,42 +1,43 @@
 * {
-    /* border: solid 1px red; */
-    margin: 0px;
-    padding: 0px;
-    overflow: hidden;
-    background-color: #0a192f;
-    scroll-behavior: smooth;
+border: solid 1px red;
+margin: 0px;
+padding: 0px;
+/* overflow: hidden; */
+background-color: #0a192f;
+scroll-behavior: smooth;
+
 }
 
 
 
 
-
-
+/* HEADER section */
 header {
-    width: 100%;
-    height: 10vh;
-    display: grid;
-    grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
-    /* Not sure about this position */
-    position: fixed;
+width: 100%;
+height: 10vh;
+display: grid;
+grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+/* Not sure about this position */
+position: fixed;
+z-index: +1;
 }
 
 .signature {
-    display: flex;
-    align-items: center;
-    font-family: Brush Script MT, Brush Script Std, cursive;
-    font-size: 25px;
-    color: #8892b0;
+display: flex;
+align-items: center;
+font-family: Brush Script MT, Brush Script Std, cursive;
+font-size: 25px;
+color: #8892b0;
 
-    margin-left: 40px;
-    width: 12%;
+margin-left: 40px;
+width: 12%;
 }
 
 .header-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: #8892b0;
+display: flex;
+justify-content: center;
+align-items: center;
+color: #8892b0;
 
 }
 
@@ -49,7 +50,7 @@ color: #5ff1d0;
 
 
 
-
+/* MAIN section */
 main {
 width: 100%;
 height: 98vh;
@@ -59,8 +60,8 @@ margin-left: 40px;
 
 /* This section % may mess up other sizing for the main area */
 #main-page {
-    width: 90%;
-    height: 90%;
+width: 90%;
+height: 90%;
 }
 
 .small-intro {
@@ -69,8 +70,8 @@ position: relative;
 top: 200px;
 left: 400px;
 color: #5ff1d0;
-
 width: 50%;
+
 }
 
 .big-intro {
@@ -122,10 +123,13 @@ text-decoration: underline;
 
 
 
+
+/* ABOUT section */
 #about-page {
 color: #8892b0;
 font-size: 40px;
 }
+
 
 .about-pic {
 position: relative;
@@ -136,29 +140,82 @@ bottom: 250px;
 .about-title {
 width: 30%;
 color: #5ff1d0;
-
 position: relative;
 top: 200px;
 left: 400px;
-
-
 }
 
 
 
 
+/* EXPERIENCE section */
+#experience-page {
+width: 100%;
+height: 98vh;
+font-size: 40px;
+}
+
+.experience-title {
+width: 30%;
+color:#5ff1d0;
+position: relative;
+top: 200px;
+left: 400px;
+}
+
+.experience-pic {
+position: relative;
+left: 1200px;
+bottom: 150px;
+
+height: 500px;
+width: 450px;
+}
 
 
+
+/* PROJECTS section */
+#projects-page {
+width: 100%;
+height: 98vh;
+font-size: 40px;
+position: relative;
+}
+
+.projects-title {
+width: 30%;
+color:#5ff1d0;
+position: relative;
+top: 200px;
+left: 400px;
+}
+
+
+
+/* CONTACT PAGE */
+#contact-page {
+width: 100%;
+height: 98vh;
+font-size: 40px;
+}
+
+.contact-title {
+width: 30%;
+color:#5ff1d0;
+position: relative;
+top: 200px;
+left: 400px;
+}
 
 
 
 footer {
-    width: 100%;
-    height: 10vh;
+width: 100%;
+height: 10vh;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .github {
