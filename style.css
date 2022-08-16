@@ -134,7 +134,9 @@ font-size: 40px;
 .about-pic {
 position: relative;
 left: 1200px;
-bottom: 250px;
+bottom: 350px;
+
+height: 575px;
 }
 
 .about-title {
