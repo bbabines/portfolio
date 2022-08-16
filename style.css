@@ -1,5 +1,5 @@
 * {
-border: solid 1px red;
+/* border: solid 1px red; */
 margin: 0px;
 padding: 0px;
 /* overflow: hidden; */
@@ -145,7 +145,25 @@ top: 200px;
 left: 400px;
 }
 
+.HTML5-icon {
+    width: 50px;
+    height: 50px;
+}
 
+.CSS-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.JS-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.three-js-icon {
+    width: 50px;
+    height: 50px;
+}
 
 
 /* EXPERIENCE section */
@@ -165,11 +183,11 @@ left: 400px;
 
 .experience-pic {
 position: relative;
-left: 1200px;
+left: 1000px;
 bottom: 150px;
 
-height: 500px;
-width: 450px;
+height: 400px;
+width: 750px;
 }
 
 
@@ -195,7 +213,7 @@ left: 400px;
 /* CONTACT PAGE */
 #contact-page {
 width: 100%;
-height: 98vh;
+height: 50vh;
 font-size: 40px;
 }
 
@@ -209,22 +227,41 @@ left: 400px;
 
 
 
-footer {
+/* footer {
 width: 100%;
 height: 10vh;
 
 display: flex;
 justify-content: center;
 align-items: center;
-}
+} */
 
 .github {
-    height: 25px;
-    width: 25px;
-    border-radius: 100px;
-    background-color: #8892b0;
+height: 30px;
+width: 30px;
+border-radius: 100px;
+background-color: #8892b0;
+
+position: relative;
+left: 1200px;
+top: 150px;
 }
 
 .github:hover {
-    background-color: #5ff1d0;
+background-color: #5ff1d0;
+}
+
+
+.linkedin-icon {
+height: 40px;
+width: 40px;
+border-radius: 100px;
+
+position: relative;
+left: 1200px;
+top: 160px;
+}
+
+.linkedin-icon:hover {
+background-color: #5ff1d0;
 }
