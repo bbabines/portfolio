@@ -1,5 +1,5 @@
 * {
-/* border: solid 1px red; */
+border: solid 1px red;
 margin: 0px;
 padding: 0px;
 /* overflow: hidden; */
@@ -211,22 +211,30 @@ top: 200px;
 left: 400px;
 }
 
+.project-display {
+    color: white;
+    font-size: 20px;
+    width: 80%;
+    height: 67%;
 
+    display: grid;
+    /* justify-items: center; */
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
 
-/* CONTACT PAGE */
-/* #contact-page {
-width: 100%;
-height: 50vh;
-font-size: 40px;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 5%;
+
+    position: relative;
+    top: 210px;
+    left: 200px;
 }
 
-.contact-title {
-width: 30%;
-color:#5ff1d0;
-position: relative;
-top: 200px;
-left: 400px;
-} */
+.project-one, .project-two, .project-three, .project-four, .project-five, .project-six {
+    height: 250px;
+    width: 250px;
+}
 
 
 
@@ -256,25 +264,28 @@ height: 30px;
 width: 30px;
 border-radius: 100px;
 background-color: #8892b0;
+}
 
-position: relative;
-right: 190px;
-top: 30px;
+.git-hub-link {
+    position: relative;
+    right: 190px;
+    top: 30px;
 }
 
 .github:hover {
 background-color: #5ff1d0;
 }
 
+.linkedin-link {
+    position: relative;
+    right: 180px;
+    top: 32px;
+}
 
 .linkedin-icon {
 height: 40px;
 width: 40px;
 border-radius: 100px;
-
-position: relative;
-right: 180px;
-top: 32px;
 }
 
 .linkedin-icon:hover {
