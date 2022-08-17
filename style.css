@@ -16,8 +16,7 @@ header {
 width: 100%;
 height: 10vh;
 display: grid;
-grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr;
-/* Not sure about this position */
+grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
 position: fixed;
 z-index: +1;
 }
@@ -41,11 +40,13 @@ color: #8892b0;
 
 }
 
-.header-links:hover, .signature:hover {
+.header-links:hover {
 color: #5ff1d0;
 }
 
-
+.signature:hover {
+    color: white;
+}
 
 
 
@@ -249,9 +250,6 @@ color: #5ff1d0;;
 margin-left: 5px;
 }
 
-.footer-icons {
-
-}
 
 .github {
 height: 30px;
