@@ -1,5 +1,5 @@
 * {
-border: solid 1px red;
+/* border: solid 1px red; */
 margin: 0px;
 padding: 0px;
 /* overflow: hidden; */
@@ -45,7 +45,7 @@ color: #5ff1d0;
 }
 
 .signature:hover {
-    color: white;
+color: white;
 }
 
 
@@ -207,34 +207,88 @@ position: relative;
 width: 30%;
 color:#5ff1d0;
 position: relative;
-top: 200px;
+top: 190px;
 left: 400px;
 }
 
 .project-display {
-    color: white;
-    font-size: 20px;
-    width: 80%;
-    height: 67%;
+color: white;
+font-size: 20px;
+width: 80%;
+height: 67%;
 
-    display: grid;
-    /* justify-items: center; */
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2%;
+display: grid;
+/* justify-items: center; */
+align-items: center;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 2%;
 
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 5%;
+grid-template-rows: 1fr 1fr 1fr;
+row-gap: 5%;
 
-    position: relative;
-    top: 210px;
-    left: 200px;
+position: relative;
+top: 210px;
+left: 200px;
 }
 
 .project-one, .project-two, .project-three, .project-four, .project-five, .project-six {
-    height: 250px;
-    width: 250px;
+height: 90%;
+width: 70%;
+text-align: center;
+
+/* Add animation or transitions */
+
 }
+
+.calc-thumb {
+display: block;
+height: 90%;
+width: 100%;
+margin-top: 1%;
+border-radius: 5%;
+}
+
+.dashboard-thumb {
+display: block;
+height: 90%;
+width: 100%;
+margin-top: 1%;
+border-radius: 5%;
+}
+
+.etch-thumb {
+display: block;
+height: 90%;
+width: 100%;
+margin-top: 1%;
+border-radius: 5%;
+}
+
+.prs-thumb {
+display: block;
+height: 90%;
+width: 100%;
+margin-top: 1%;
+border-radius: 5%;
+}
+
+.signup-thumb {
+display: block;
+height: 90%;
+width: 100%;
+margin-top: 1%;
+border-radius: 5%;
+}
+
+.landing-thumb {
+display: block;
+height: 90%;
+width: 100%;
+margin-top: 1%;
+border-radius: 5%;
+}
+
+
 
 
 
