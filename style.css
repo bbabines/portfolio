@@ -27,9 +27,13 @@ align-items: center;
 font-family: Brush Script MT, Brush Script Std, cursive;
 font-size: 25px;
 color: #8892b0;
-
 margin-left: 40px;
-width: 12%;
+width: 10%;
+}
+
+.signature:hover {
+transform: rotate(360deg);
+transition: all 0.3s ease-in-out 0s;
 }
 
 .header-links {
@@ -125,6 +129,8 @@ text-decoration: underline;
 
 
 
+
+
 /* ABOUT section */
 #about-page {
 color: #8892b0;
@@ -169,6 +175,9 @@ left: 400px;
 }
 
 
+
+
+
 /* EXPERIENCE section */
 #experience-page {
 width: 100%;
@@ -187,11 +196,14 @@ left: 400px;
 .experience-pic {
 position: relative;
 left: 1000px;
-bottom: 150px;
+bottom: 200px;
 
 height: 400px;
 width: 750px;
 }
+
+
+
 
 
 
@@ -218,7 +230,6 @@ width: 80%;
 height: 67%;
 
 display: grid;
-/* justify-items: center; */
 align-items: center;
 grid-template-columns: 1fr 1fr 1fr;
 column-gap: 2%;
@@ -235,56 +246,20 @@ left: 200px;
 height: 90%;
 width: 70%;
 text-align: center;
-
-/* Add animation or transitions */
-
 }
 
-.calc-thumb {
+.calc-thumb:hover, .dashboard-thumb:hover, .etch-thumb:hover, .prs-thumb:hover, .signup-thumb:hover, .landing-thumb:hover {
+border: 1px solid #5ff1d0;
+box-shadow: 0 0 25px #5ff1d0;
+transition-property: box-shadow;
+transition: box-shadow ease-out 0.2s;
+}
+
+.calc-thumb, .dashboard-thumb, .etch-thumb, .prs-thumb, .signup-thumb, .landing-thumb {
 display: block;
 height: 90%;
 width: 100%;
-margin-top: 1%;
-border-radius: 5%;
-}
-
-.dashboard-thumb {
-display: block;
-height: 90%;
-width: 100%;
-margin-top: 1%;
-border-radius: 5%;
-}
-
-.etch-thumb {
-display: block;
-height: 90%;
-width: 100%;
-margin-top: 1%;
-border-radius: 5%;
-}
-
-.prs-thumb {
-display: block;
-height: 90%;
-width: 100%;
-margin-top: 1%;
-border-radius: 5%;
-}
-
-.signup-thumb {
-display: block;
-height: 90%;
-width: 100%;
-margin-top: 1%;
-border-radius: 5%;
-}
-
-.landing-thumb {
-display: block;
-height: 90%;
-width: 100%;
-margin-top: 1%;
+margin-top: 3%;
 border-radius: 5%;
 }
 
@@ -293,6 +268,8 @@ border-radius: 5%;
 
 
 
+
+/* Footer Section */
 footer {
 width: 100%;
 height: 15vh;
@@ -321,9 +298,9 @@ background-color: #8892b0;
 }
 
 .git-hub-link {
-    position: relative;
-    right: 190px;
-    top: 30px;
+position: relative;
+right: 190px;
+top: 30px;
 }
 
 .github:hover {
@@ -331,9 +308,9 @@ background-color: #5ff1d0;
 }
 
 .linkedin-link {
-    position: relative;
-    right: 180px;
-    top: 32px;
+position: relative;
+right: 180px;
+top: 32px;
 }
 
 .linkedin-icon {
