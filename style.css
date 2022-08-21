@@ -367,7 +367,7 @@ background-color: #5ff1d0;
     }
         
     .big-intro {
-    font-size: 20px;
+    font-size: 30px;
     }
         
     .second-line {
@@ -375,7 +375,8 @@ background-color: #5ff1d0;
     }
         
     p {
-    display:none;
+    /* display:none; */
+    width: 80%;
     }
         
     .resume {
@@ -384,7 +385,7 @@ background-color: #5ff1d0;
     display: flex;
     align-items: center;
     position: relative;
-    top: 210px;
+    top: 230px;
     }
 
     .resume-text {
@@ -397,6 +398,7 @@ background-color: #5ff1d0;
     height: 100vh;
     position: relative;
     right: 350px;
+    bottom: 190px;
     }
     
     .about-pic {
@@ -436,6 +438,7 @@ background-color: #5ff1d0;
     font-size: 40px;
     position: relative;
     right: 350px;
+    top: 400px;
     }
     
     .experience-title {
@@ -458,6 +461,7 @@ background-color: #5ff1d0;
     font-size: 40px;
     position: relative;
     right: 350px;
+    top: 600px;
     }
     
     .projects-title {
@@ -510,6 +514,9 @@ background-color: #5ff1d0;
     width: 100%;
     height: 20vh;
     color:#8892b0;
+    position:relative;
+    top: 600px;
+    right: 50px;
     }
     
     .footer-title {
@@ -525,13 +532,13 @@ background-color: #5ff1d0;
     
     .git-hub-link {
     position: relative;
-    right: 0px;
+    right: 20px;
     top: 48px;
     }
     
     .linkedin-link {
     position: relative;
-    right: 70px;
+    right: 100px;
     top: 50px;
     }
     
