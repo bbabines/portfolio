@@ -1,792 +1,759 @@
 * {
-/* border: solid 1px red; */
-margin: 0px;
-padding: 0px;
-/* overflow: hidden; */
-background-color: #0a192f;
-scroll-behavior: smooth;
-
+	/* border: solid 1px red; */
+	margin: 0px;
+	padding: 0px;
+	/* overflow: hidden; */
+	background-color: #0a192f;
+	scroll-behavior: smooth;
 }
-
-
-
 
 /* HEADER section */
 header {
-width: 100%;
-height: 10vh;
-display: grid;
-grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
-position: fixed;
-z-index: +1;
+	width: 100%;
+	height: 10vh;
+	display: grid;
+	grid-template-columns: 3fr 0.5fr 0.5fr 0.5fr 0.5fr;
+	position: fixed;
+	z-index: +1;
 }
 
 .signature {
-display: flex;
-align-items: center;
-font-family: Brush Script MT, Brush Script Std, cursive;
-font-size: 25px;
-color: #8892b0;
-margin-left: 40px;
-width: 10%;
+	display: flex;
+	align-items: center;
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	font-size: 25px;
+	color: #8892b0;
+	margin-left: 40px;
+	width: 10%;
 }
 
 .signature:hover {
-transition-property: scale;
-scale: 150%;
-transition: all 2s linear;
+	transition-property: scale;
+	scale: 150%;
+	transition: all 2s linear;
 }
 
 .header-links {
-display: flex;
-justify-content: center;
-align-items: center;
-color: #8892b0;
-
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #8892b0;
 }
 
 .header-links:hover {
-color: #5ff1d0;
+	color: #5ff1d0;
 }
 
 .signature:hover {
-color: white;
+	color: white;
 }
 
 /* #home-link {
     display: none;
 } */
 
-
-
 /* MAIN section */
 main {
-width: 100%;
-height: 98vh;
-color: white;
-margin-left: 40px;
+	width: 100%;
+	height: 98vh;
+	color: white;
+	margin-left: 40px;
 }
 
 /* This section % may mess up other sizing for the main area */
 #main-page {
-width: 90%;
-height: 90%;
+	width: 90%;
+	height: 90%;
 }
 
 .small-intro {
-font-size: 20px;
-position: relative;
-top: 200px;
-left: 400px;
-color: #5ff1d0;
-width: 50%;
-
+	font-size: 20px;
+	position: relative;
+	top: 200px;
+	left: 400px;
+	color: #5ff1d0;
+	width: 50%;
 }
 
 .big-intro {
-font-size: 70px;
-position: relative;
-top: 200px;
-left: 400px;
-width: 50%;
+	font-size: 70px;
+	position: relative;
+	top: 200px;
+	left: 400px;
+	width: 50%;
 }
 
 .second-line {
-color: #8892b0;
+	color: #8892b0;
 }
 
 p {
-font-size: 20px;
-color: #8892b0;
-position: relative;
-top: 210px;
-left: 400px;
+	font-size: 20px;
+	color: #8892b0;
+	position: relative;
+	top: 210px;
+	left: 400px;
 
-width: 30%;
+	width: 30%;
 }
 
 .resume {
-width: 200px;
-font-size: 20px;
+	width: 200px;
+	font-size: 20px;
 
-position: relative;
-top: 250px;
-left: 400px;
+	position: relative;
+	top: 250px;
+	left: 400px;
 
-padding: 15px;
-border: 1px solid #5ff1d0;
+	padding: 15px;
+	border: 1px solid #5ff1d0;
 }
 
-
-
-a:link, a:visited {
-text-decoration: none;
-color: #8892b0;
+a:link,
+a:visited {
+	text-decoration: none;
+	color: #8892b0;
 }
 
 a:hover {
-color: #5ff1d0;
-text-decoration: underline;
+	color: #5ff1d0;
+	text-decoration: underline;
 }
-
-
-
-
-
-
 
 /* ABOUT section */
 #about-page {
-color: #8892b0;
-font-size: 40px;
+	color: #8892b0;
+	font-size: 40px;
 }
 
-
 .about-pic {
-position: relative;
-left: 1200px;
-bottom: 350px;
+	position: relative;
+	left: 1200px;
+	bottom: 350px;
 
-height: 575px;
+	height: 575px;
 }
 
 .about-title {
-width: 30%;
-color: #5ff1d0;
-position: relative;
-top: 200px;
-left: 400px;
+	width: 30%;
+	color: #5ff1d0;
+	position: relative;
+	top: 200px;
+	left: 400px;
 }
 
 .HTML5-icon {
-    width: 50px;
-    height: 50px;
+	width: 50px;
+	height: 50px;
 }
 
 .CSS-icon {
-    width: 50px;
-    height: 50px;
+	width: 50px;
+	height: 50px;
 }
 
 .JS-icon {
-    width: 50px;
-    height: 50px;
+	width: 50px;
+	height: 50px;
 }
 
 .three-js-icon {
-    width: 50px;
-    height: 50px;
+	width: 50px;
+	height: 50px;
 }
-
-
-
-
 
 /* EXPERIENCE section */
 #experience-page {
-width: 100%;
-height: 98vh;
-font-size: 40px;
+	width: 100%;
+	height: 98vh;
+	font-size: 40px;
 }
 
 .experience-title {
-width: 30%;
-color:#5ff1d0;
-position: relative;
-top: 200px;
-left: 400px;
+	width: 30%;
+	color: #5ff1d0;
+	position: relative;
+	top: 200px;
+	left: 400px;
 }
 
 .experience-pic {
-position: relative;
-left: 1000px;
-bottom: 200px;
+	position: relative;
+	left: 1000px;
+	bottom: 200px;
 
-height: 400px;
-width: 750px;
+	height: 400px;
+	width: 750px;
 }
-
-
-
-
-
 
 /* PROJECTS section */
 #projects-page {
-width: 100%;
-height: 85vh;
-font-size: 40px;
-position: relative;
+	width: 100%;
+	height: 85vh;
+	font-size: 40px;
+	position: relative;
 }
 
 .projects-title {
-width: 30%;
-color:#5ff1d0;
-position: relative;
-top: 190px;
-left: 400px;
+	width: 30%;
+	color: #5ff1d0;
+	position: relative;
+	top: 190px;
+	left: 400px;
 }
 
 .project-display {
-color: white;
-font-size: 20px;
-width: 80%;
-height: 67%;
+	color: white;
+	font-size: 20px;
+	width: 80%;
+	height: 67%;
 
-display: grid;
-align-items: center;
-grid-template-columns: 1fr 1fr 1fr;
-column-gap: 2%;
+	display: grid;
+	align-items: center;
+	grid-template-columns: 1fr 1fr 1fr;
+	column-gap: 2%;
 
-grid-template-rows: 1fr 1fr 1fr;
-row-gap: 5%;
+	grid-template-rows: 1fr 1fr 1fr;
+	row-gap: 5%;
 
-position: relative;
-top: 210px;
-left: 200px;
+	position: relative;
+	top: 210px;
+	left: 200px;
 }
 
-.project-one, .project-two, .project-three, .project-four, .project-five, .project-six {
-height: 90%;
-width: 70%;
-text-align: center;
+.project-one,
+.project-two,
+.project-three,
+.project-four,
+.project-five,
+.project-six {
+	height: 90%;
+	width: 70%;
+	text-align: center;
 }
 
-.calc-thumb:hover, .dashboard-thumb:hover, .etch-thumb:hover, .prs-thumb:hover, .signup-thumb:hover, .landing-thumb:hover {
-border: 1px solid #5ff1d0;
-box-shadow: 0 0 25px #5ff1d0;
-transition-property: box-shadow;
-transition: box-shadow ease-out 0.2s;
+.calc-thumb:hover,
+.dashboard-thumb:hover,
+.etch-thumb:hover,
+.prs-thumb:hover,
+.signup-thumb:hover,
+.landing-thumb:hover {
+	border: 1px solid #5ff1d0;
+	box-shadow: 0 0 25px #5ff1d0;
+	transition-property: box-shadow;
+	transition: box-shadow ease-out 0.2s;
 }
 
-.calc-thumb, .dashboard-thumb, .etch-thumb, .prs-thumb, .signup-thumb, .landing-thumb {
-display: block;
-height: 90%;
-width: 100%;
-margin-top: 3%;
-border-radius: 5%;
+.calc-thumb,
+.dashboard-thumb,
+.etch-thumb,
+.prs-thumb,
+.signup-thumb,
+.landing-thumb {
+	display: block;
+	height: 90%;
+	width: 100%;
+	margin-top: 3%;
+	border-radius: 5%;
 }
-
-
-
-
-
-
 
 /* Footer Section */
 footer {
-width: 100%;
-height: 15vh;
-color:#8892b0;
+	width: 100%;
+	height: 15vh;
+	color: #8892b0;
 
-display: flex;
-justify-content: center;
-align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .footer-title {
-font-size: 20px;
-color: #5ff1d0;;
+	font-size: 20px;
+	color: #5ff1d0;
 }
 
 .footer-email {
-margin-left: 5px;
+	margin-left: 5px;
 }
 
-
 .github {
-height: 30px;
-width: 30px;
-border-radius: 100px;
-background-color: #8892b0;
+	height: 30px;
+	width: 30px;
+	border-radius: 100px;
+	background-color: #8892b0;
 }
 
 .git-hub-link {
-position: relative;
-right: 190px;
-top: 30px;
+	position: relative;
+	right: 190px;
+	top: 30px;
 }
 
 .github:hover {
-background-color: #5ff1d0;
+	background-color: #5ff1d0;
 }
 
 .linkedin-link {
-position: relative;
-right: 180px;
-top: 32px;
+	position: relative;
+	right: 180px;
+	top: 32px;
 }
 
 .linkedin-icon {
-height: 40px;
-width: 40px;
-border-radius: 100px;
+	height: 40px;
+	width: 40px;
+	border-radius: 100px;
 }
 
 .linkedin-icon:hover {
-background-color: #5ff1d0;
+	background-color: #5ff1d0;
 }
 
-
-
-
-
 @media screen and (min-width: 200px) and (max-width: 480px) {
+	/* HEADER section */
+	header {
+		width: 100vw;
+		height: 10vh;
+		display: grid;
+		grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+		font-size: 10px;
+	}
 
+	#home-link {
+		display: none;
+	}
 
-    /* HEADER section */
-    header {
-    width: 100vw;
-    height: 10vh;
-    display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
-    font-size: 10px;
-    }
+	.signature {
+		font-size: 10px;
+		position: relative;
+		right: 30px;
+	}
 
-    #home-link {
-    display: none;
-    }
+	/* Main section */
+	#main-page {
+		position: relative;
+		right: 400px;
+		bottom: 80px;
+	}
 
-    .signature {
-    font-size: 10px;
-    position: relative;
-    right: 30px;
-    }
+	.small-intro {
+		font-size: 20px;
+		width: 50%;
+	}
 
+	.big-intro {
+		font-size: 30px;
+	}
 
-    /* Main section */
-    #main-page {
-    position: relative;
-    right: 400px;
-    bottom: 80px;
-    }
-    
-    .small-intro {
-    font-size: 20px;
-    width: 50%;
-    }
-        
-    .big-intro {
-    font-size: 30px;
-    }
-        
-    .second-line {
-    font-size: 20px;
-    }
-        
-    p {
-    /* display:none; */
-    width: 80%;
-    }
-        
-    .resume {
-    width: 100px;
-    height: 5px;
-    display: flex;
-    align-items: center;
-    position: relative;
-    top: 230px;
-    }
+	.second-line {
+		font-size: 20px;
+	}
 
-    .resume-text {
-        font-size: 10px;
-    }
+	p {
+		/* display:none; */
+		width: 80%;
+	}
 
-    /* ABOUT section */
-    #about-page {
-    width: 100vw;
-    height: 100vh;
-    position: relative;
-    right: 350px;
-    bottom: 190px;
-    }
-    
-    .about-pic {
-    display: none;
-    }
-    
-    .about-title {
-    width: 30%;
-    color: #5ff1d0;
-    }
-    
-    .HTML5-icon {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .CSS-icon {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .JS-icon {
-        width: 50px;
-        height: 50px;
-    }
-    
-    .three-js-icon {
-        width: 50px;
-        height: 50px;
-    }
-    
+	.resume {
+		width: 100px;
+		height: 5px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		top: 230px;
+	}
 
-    /* EXPERIENCE section */
-    #experience-page {
-    width: 100%;
-    height: 98vh;
-    font-size: 40px;
-    position: relative;
-    right: 350px;
-    top: 400px;
-    }
-    
-    .experience-title {
-    width: 30%;
-    color:#5ff1d0;
-    position: relative;
-    top: 200px;
-    left: 400px;
-    }
-    
-    .experience-pic {
-    display: none;
-    }
-    
-    
-    /* PROJECTS section */
-    #projects-page {
-    width: 100%;
-    height: 85vh;
-    font-size: 40px;
-    position: relative;
-    right: 350px;
-    top: 600px;
-    }
-    
-    .projects-title {
-    width: 30%;
-    color:#5ff1d0;
-    position: relative;
-    top: 100px;
-    left: 400px;
-    }
-    
-    .project-display {
-    color: white;
-    font-size: 20px;
-    width: 80%;
-    height: 67%;
-    
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    column-gap: 5%;
-    row-gap: 8%;
-    
-    position: relative;
-    top: 110px;
-    left: 400px;
-    }
-    
-    .project-one, .project-two, .project-three, .project-four, .project-five, .project-six {
-    height: 90%;
-    width: 70%;
-    text-align: center;
-    }
-    
-   
-    
-    .calc-thumb, .dashboard-thumb, .etch-thumb, .prs-thumb, .signup-thumb, .landing-thumb {
-    display: block;
-    height: 90%;
-    width: 100%;
-    margin-top: 3%;
-    border-radius: 5%;
-    }
-    
+	.resume-text {
+		font-size: 10px;
+	}
 
+	/* ABOUT section */
+	#about-page {
+		width: 100vw;
+		height: 100vh;
+		position: relative;
+		right: 350px;
+		bottom: 190px;
+	}
 
+	.about-pic {
+		display: none;
+	}
 
-    /* Footer Section */
-    footer {
-    width: 100%;
-    height: 20vh;
-    color:#8892b0;
-    position:relative;
-    top: 600px;
-    right: 50px;
-    }
-    
-    .footer-title {
-    display: none;
-    }
-    
-    .footer-email {
-    margin-left: 5px;
-    position: relative;
-    left: 70px;
-    }
-    
-    
-    .git-hub-link {
-    position: relative;
-    right: 20px;
-    top: 48px;
-    }
-    
-    .linkedin-link {
-    position: relative;
-    right: 100px;
-    top: 50px;
-    }
-    
-   
+	.about-title {
+		width: 30%;
+		color: #5ff1d0;
+	}
 
+	.HTML5-icon {
+		width: 50px;
+		height: 50px;
+	}
+
+	.CSS-icon {
+		width: 50px;
+		height: 50px;
+	}
+
+	.JS-icon {
+		width: 50px;
+		height: 50px;
+	}
+
+	.three-js-icon {
+		width: 50px;
+		height: 50px;
+	}
+
+	/* EXPERIENCE section */
+	#experience-page {
+		width: 100%;
+		height: 98vh;
+		font-size: 40px;
+		position: relative;
+		right: 350px;
+		top: 400px;
+	}
+
+	.experience-title {
+		width: 30%;
+		color: #5ff1d0;
+		position: relative;
+		top: 200px;
+		left: 400px;
+	}
+
+	.experience-pic {
+		display: none;
+	}
+
+	/* PROJECTS section */
+	#projects-page {
+		width: 100%;
+		height: 85vh;
+		font-size: 40px;
+		position: relative;
+		right: 350px;
+		top: 600px;
+	}
+
+	.projects-title {
+		width: 30%;
+		color: #5ff1d0;
+		position: relative;
+		top: 100px;
+		left: 400px;
+	}
+
+	.project-display {
+		color: white;
+		font-size: 20px;
+		width: 80%;
+		height: 67%;
+
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr;
+		grid-template-rows: 1fr 1fr;
+		column-gap: 5%;
+		row-gap: 8%;
+
+		position: relative;
+		top: 110px;
+		left: 400px;
+	}
+
+	.project-one,
+	.project-two,
+	.project-three,
+	.project-four,
+	.project-five,
+	.project-six {
+		height: 90%;
+		width: 70%;
+		text-align: center;
+	}
+
+	.calc-thumb,
+	.dashboard-thumb,
+	.etch-thumb,
+	.prs-thumb,
+	.signup-thumb,
+	.landing-thumb {
+		display: block;
+		height: 90%;
+		width: 100%;
+		margin-top: 3%;
+		border-radius: 5%;
+	}
+
+	/* Footer Section */
+	footer {
+		width: 100%;
+		height: 20vh;
+		color: #8892b0;
+		position: relative;
+		top: 600px;
+		right: 50px;
+	}
+
+	.footer-title {
+		display: none;
+	}
+
+	.footer-email {
+		margin-left: 5px;
+		position: relative;
+		left: 70px;
+	}
+
+	.git-hub-link {
+		position: relative;
+		right: 20px;
+		top: 48px;
+	}
+
+	.linkedin-link {
+		position: relative;
+		right: 100px;
+		top: 50px;
+	}
 }
 
 @media screen and (min-width: 481px) and (max-width: 767px) {
+	/* MAIN section */
+	main {
+		width: 90%;
+		height: 98vh;
+		margin-left: 0px;
 
-      /* MAIN section */
-      main {
-        width: 90%;
-        height: 98vh;
-        margin-left: 0px;
-    
-        position: relative;
-        right: 100px;
-        }
-        
-        .small-intro, .big-intro, .second-line, p {
-         width: 100%;
-        }
-    
-    
-        /* ABOUT section */
-        #about-page {
-        height: 100vh;
-        width: 80%;
-        position: relative;
-        right: 100px;
-        top: 150px;
-        }
-       
-        .about-pic {
-        display: none;
-        }
-    
-       /* EXPERIENCE section */
-       #experience-page {
-        width: 80%;
-        height: 98vh;
-        
-        position: relative;
-        right: 100px;
-        top: 400px;
-        } 
-       
-       .experience-pic {
-        display: none;
-        }
-    
-        /* PROJECTS section */
-    
-        #projects-page {
-        width: 100%;
-        height: 85vh;
-        font-size: 40px;
-        position: relative;
-        top: 400px;
-    
-        display: flex;
-        }
-    
-        
-    .projects-title {
-        width: 30%;
-        color:#5ff1d0;
-        position: relative;
-        top: 90px;
-        left: 400px;
-    
-        }
-        
-        .project-display {
-        color: white;
-        font-size: 20px;
-        width: 80%;
-        height: 67%;
-        
-        display: grid;
-        align-items: center;
-        grid-template-columns: 1fr 1fr 1fr;
-        column-gap: 2%;
-        grid-template-rows: 1fr 1fr 1fr;
-        row-gap: 5%;
-        
-        position: relative;
-        top: 210px;
-        left: 100px;
-        }
-        
-      /* FOOTER section */
-      footer {
-        width: 80%;
-        height: 15vh;
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
-        position: relative;
-        top: 400px;
-        left: 300px;
-        }
-        
-        .footer-title {
-        font-size: 20px;
-        color: #5ff1d0;;
-        }
-        
-        .footer-email {
-        margin-left: 5px;
-        }
-        
-        
-        .git-hub-link {
-        position: relative;
-        right: 190px;
-        top: 30px;
-        }
-        
-        .linkedin-link {
-        position: relative;
-        right: 180px;
-        top: 32px;
-        }
+		position: relative;
+		right: 100px;
+	}
+
+	.small-intro,
+	.big-intro,
+	.second-line,
+	p {
+		width: 100%;
+	}
+
+	/* ABOUT section */
+	#about-page {
+		height: 100vh;
+		width: 80%;
+		position: relative;
+		right: 100px;
+		top: 150px;
+	}
+
+	.about-pic {
+		display: none;
+	}
+
+	/* EXPERIENCE section */
+	#experience-page {
+		width: 80%;
+		height: 98vh;
+
+		position: relative;
+		right: 100px;
+		top: 400px;
+	}
+
+	.experience-pic {
+		display: none;
+	}
+
+	/* PROJECTS section */
+
+	#projects-page {
+		width: 100%;
+		height: 85vh;
+		font-size: 40px;
+		position: relative;
+		top: 400px;
+
+		display: flex;
+	}
+
+	.projects-title {
+		width: 30%;
+		color: #5ff1d0;
+		position: relative;
+		top: 90px;
+		left: 400px;
+	}
+
+	.project-display {
+		color: white;
+		font-size: 20px;
+		width: 80%;
+		height: 67%;
+
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 2%;
+		grid-template-rows: 1fr 1fr 1fr;
+		row-gap: 5%;
+
+		position: relative;
+		top: 210px;
+		left: 100px;
+	}
+
+	/* FOOTER section */
+	footer {
+		width: 80%;
+		height: 15vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		position: relative;
+		top: 400px;
+		left: 300px;
+	}
+
+	.footer-title {
+		font-size: 20px;
+		color: #5ff1d0;
+	}
+
+	.footer-email {
+		margin-left: 5px;
+	}
+
+	.git-hub-link {
+		position: relative;
+		right: 190px;
+		top: 30px;
+	}
+
+	.linkedin-link {
+		position: relative;
+		right: 180px;
+		top: 32px;
+	}
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* MAIN section */
-    main {
-    width: 90%;
-    height: 98vh;
-    margin-left: 0px;
+	/* MAIN section */
+	main {
+		width: 90%;
+		height: 98vh;
+		margin-left: 0px;
 
-    position: relative;
-    right: 100px;
-    }
-    
-    .small-intro, .big-intro, .second-line, p {
-     width: 100%;
-    }
+		position: relative;
+		right: 100px;
+	}
 
+	.small-intro,
+	.big-intro,
+	.second-line,
+	p {
+		width: 100%;
+	}
 
-    /* ABOUT section */
-    #about-page {
-    height: 100vh;
-    width: 80%;
-    position: relative;
-    right: 100px;
-    }
-   
-    .about-pic {
-    display: none;
-    }
+	/* ABOUT section */
+	#about-page {
+		height: 100vh;
+		width: 80%;
+		position: relative;
+		right: 100px;
+	}
 
-   /* EXPERIENCE section */
-   #experience-page {
-    width: 80%;
-    height: 98vh;
-    
-    position: relative;
-    right: 100px;
-    top: 200px;
-    } 
-   
-   .experience-pic {
-    display: none;
-    }
+	.about-pic {
+		display: none;
+	}
 
-    /* PROJECTS section */
+	/* EXPERIENCE section */
+	#experience-page {
+		width: 80%;
+		height: 98vh;
 
-    #projects-page {
-    width: 100%;
-    height: 85vh;
-    font-size: 40px;
-    position: relative;
-    top: 200px;
+		position: relative;
+		right: 100px;
+		top: 200px;
+	}
 
-    display: flex;
-    }
+	.experience-pic {
+		display: none;
+	}
 
-    
-.projects-title {
-    width: 30%;
-    color:#5ff1d0;
-    position: relative;
-    top: 90px;
-    left: 500px;
+	/* PROJECTS section */
 
-    }
-    
-    .project-display {
-    color: white;
-    font-size: 20px;
-    width: 80%;
-    height: 67%;
-    
-    display: grid;
-    align-items: center;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 2%;
-    grid-template-rows: 1fr 1fr 1fr;
-    row-gap: 5%;
-    
-    position: relative;
-    top: 210px;
-    left: 100px;
-    }
-    
-  /* FOOTER section */
-  footer {
-    width: 80%;
-    height: 15vh;
+	#projects-page {
+		width: 100%;
+		height: 85vh;
+		font-size: 40px;
+		position: relative;
+		top: 200px;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+		display: flex;
+	}
 
-    position: relative;
-    top: 100px;
-    left: 300px;
-    }
-    
-    .footer-title {
-    font-size: 20px;
-    color: #5ff1d0;;
-    }
-    
-    .footer-email {
-    margin-left: 5px;
-    }
-    
-    
-    .git-hub-link {
-    position: relative;
-    right: 190px;
-    top: 30px;
-    }
-    
-    .linkedin-link {
-    position: relative;
-    right: 180px;
-    top: 32px;
-    }
-    
-    
-   
-    
-    
+	.projects-title {
+		width: 30%;
+		color: #5ff1d0;
+		position: relative;
+		top: 90px;
+		left: 500px;
+	}
+
+	.project-display {
+		color: white;
+		font-size: 20px;
+		width: 80%;
+		height: 67%;
+
+		display: grid;
+		align-items: center;
+		grid-template-columns: 1fr 1fr 1fr;
+		column-gap: 2%;
+		grid-template-rows: 1fr 1fr 1fr;
+		row-gap: 5%;
+
+		position: relative;
+		top: 210px;
+		left: 100px;
+	}
+
+	/* FOOTER section */
+	footer {
+		width: 80%;
+		height: 15vh;
+
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		position: relative;
+		top: 100px;
+		left: 300px;
+	}
+
+	.footer-title {
+		font-size: 20px;
+		color: #5ff1d0;
+	}
+
+	.footer-email {
+		margin-left: 5px;
+	}
+
+	.git-hub-link {
+		position: relative;
+		right: 190px;
+		top: 30px;
+	}
+
+	.linkedin-link {
+		position: relative;
+		right: 180px;
+		top: 32px;
+	}
 }
