@@ -17,7 +17,7 @@ header {
 	z-index: +1;
 }
 
-.signature {
+#signature {
 	display: flex;
 	align-items: center;
 	font-family: "Dancing Script", cursive;
@@ -27,10 +27,14 @@ header {
 	width: 10%;
 }
 
-.signature:hover {
-	transition-property: scale;
+#signature:hover {
+	/* transition-property: scale; */
 	/* scale: 150%; */
 	transition: all 2s linear;
+}
+
+#signature:hover {
+	color: white;
 }
 
 .header-links {
@@ -42,10 +46,6 @@ header {
 
 .header-links:hover {
 	color: #5ff1d0;
-}
-
-.signature:hover {
-	color: white;
 }
 
 #home-link {
